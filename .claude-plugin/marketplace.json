@@ -1,0 +1,20 @@
+{
+  "name": "ai-plugin-marketplace",
+  "owner": {
+    "name": "Peter Fux"
+  },
+  "metadata": {
+    "description": "AI Plugin Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "plugin-v0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/draftm0de/ai.plugin.plugin.v0.git"
+      },
+      "description": "Plugin für viele viele Dinge",
+      "displayName": "Plugin V0"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ai-plugin-marketplace",
+  "interface": {
+    "displayName": "AI Plugin Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "plugin-v0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/draftm0de/ai.plugin.plugin.v0.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
